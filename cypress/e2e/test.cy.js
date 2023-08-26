@@ -2,7 +2,7 @@
 
 describe('test',()=>{
     beforeEach(()=>{
-        cy.visit('https://chrval59279.azurewebsites.net/')
+        cy.visit('https://chrivale.azurewebsites.net/webapp/')
     })
     it('test H1',()=>{
         
