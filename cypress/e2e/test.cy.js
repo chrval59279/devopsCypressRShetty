@@ -9,6 +9,6 @@ describe('test',()=>{
         cy.get('h1').should('contain','RahulShettyAcademy.com Learning')
     })
     it('test H3',()=>{
-        cy.get('h3').should('contain','Cypress')
+        cy.get('h3').should('contain','cypress')
     })
 })
