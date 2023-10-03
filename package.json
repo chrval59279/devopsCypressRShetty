@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run"
+    "test:azureweb": "cypress run --spec 'cypress/e2e/testazureweb.cy.js'",
+    "test:localhost": "cypress run --spec 'cypress/e2e/testlocalhost.cy.js'",
+    "test:all":"cypress run"
   },
   "keywords": [],
   "author": "",
